@@ -1,13 +1,6 @@
 <?php
 
-// ============================================
-// PHP OPERATORS
-// ============================================
-
-
-// ============================================
 // 1. ARITHMETIC OPERATORS
-// ============================================
 
 echo "<h2>1. Arithmetic Operators</h2>";
 
@@ -22,9 +15,7 @@ echo "Modulus: " . ($a % $b) . "<br>";
 echo "Power: " . ($a ** $b) . "<br>";
 
 
-// ============================================
 // 2. ASSIGNMENT OPERATORS
-// ============================================
 
 echo "<h2>2. Assignment Operators</h2>";
 
@@ -48,9 +39,7 @@ $x %= 3;
 echo "After %= 3: $x<br>";
 
 
-// ============================================
 // 3. COMPARISON OPERATORS
-// ============================================
 
 echo "<h2>3. Comparison Operators</h2>";
 
@@ -82,9 +71,7 @@ var_dump($a <= $b);
 echo "<br>";
 
 
-// ============================================
 // 4. STRICT COMPARISON
-// ============================================
 
 echo "<h2>4. Strict Comparison</h2>";
 
@@ -108,9 +95,7 @@ var_dump($a !== $b);
 echo "<br>";
 
 
-// ============================================
 // 5. INCREMENT AND DECREMENT
-// ============================================
 
 echo "<h2>5. Increment and Decrement</h2>";
 
@@ -125,9 +110,7 @@ $count--;
 echo "After --: $count<br>";
 
 
-// ============================================
 // 6. LOGICAL OPERATORS
-// ============================================
 
 echo "<h2>6. Logical Operators</h2>";
 
@@ -147,9 +130,7 @@ var_dump(!$hasID);
 echo "<br>";
 
 
-// ============================================
 // 7. STRING OPERATORS
-// ============================================
 
 echo "<h2>7. String Operators</h2>";
 
@@ -167,9 +148,7 @@ $message .= " Shankho";
 echo "Message: $message<br>";
 
 
-// ============================================
 // 8. TERNARY OPERATOR
-// ============================================
 
 echo "<h2>8. Ternary Operator</h2>";
 
@@ -180,9 +159,7 @@ $result = ($age >= 18) ? "Adult" : "Minor";
 echo "Result: $result<br>";
 
 
-// ============================================
 // 9. NULL COALESCING OPERATOR
-// ============================================
 
 echo "<h2>9. Null Coalescing Operator</h2>";
 
@@ -193,9 +170,7 @@ $name = $username ?? "Guest";
 echo "Name: $name<br>";
 
 
-// ============================================
 // 10. NULL COALESCING ASSIGNMENT
-// ============================================
 
 echo "<h2>10. Null Coalescing Assignment</h2>";
 
@@ -206,9 +181,7 @@ $name ??= "Shankho";
 echo "Name: $name<br>";
 
 
-// ============================================
 // 11. OPERATOR PRECEDENCE
-// ============================================
 
 echo "<h2>11. Operator Precedence</h2>";
 
@@ -221,9 +194,7 @@ $result = (10 + 5) * 2;
 echo "(10 + 5) * 2 = $result<br>";
 
 
-// ============================================
 // FINAL EXAMPLE
-// ============================================
 
 echo "<h2>Final Example</h2>";
 

@@ -1,8 +1,6 @@
 <?php
 
-// ============================================
 // 1. PHP STRINGS
-// ============================================
 
 $name = "Shankho";
 $course = 'BCA';
@@ -14,9 +12,7 @@ echo "<br>";
 echo $course;
 
 
-// ============================================
 // 2. STRING FUNCTIONS
-// ============================================
 
 echo "<h2>2. String Functions</h2>";
 
@@ -35,9 +31,7 @@ echo "Uppercase: " . strtoupper($text) . "<br>";
 echo "Lowercase: " . strtolower($text) . "<br>";
 
 
-// ============================================
 // 3. MODIFY STRINGS
-// ============================================
 
 echo "<h2>3. Modify Strings</h2>";
 
@@ -52,9 +46,7 @@ echo "Lowercase: " . strtolower($text) . "<br>";
 echo "Replace World: " . str_replace("World", "PHP", $text) . "<br>";
 
 
-// ============================================
 // 4. CONCATENATE STRINGS
-// ============================================
 
 echo "<h2>4. Concatenate Strings</h2>";
 
@@ -75,9 +67,7 @@ $message .= ", welcome to PHP!";
 echo $message . "<br>";
 
 
-// ============================================
 // 5. SLICING STRINGS
-// ============================================
 
 echo "<h2>5. Slicing Strings</h2>";
 
@@ -92,9 +82,7 @@ echo "From position 6: " . substr($text, 6) . "<br>";
 echo "Characters 0 to 4: " . substr($text, 0, 5) . "<br>";
 
 
-// ============================================
 // 6. ESCAPE CHARACTERS
-// ============================================
 
 echo "<h2>6. Escape Characters</h2>";
 
@@ -111,9 +99,7 @@ echo "This is a backslash: \\";
 echo "<br>";
 
 
-// ============================================
 // 7. DOUBLE VS SINGLE QUOTES
-// ============================================
 
 echo "<h2>7. Double vs Single Quotes</h2>";
 
@@ -126,9 +112,7 @@ echo 'Single quotes: My name is $name';
 echo "<br>";
 
 
-// ============================================
 // FINAL EXAMPLE
-// ============================================
 
 echo "<h2>Final Example</h2>";
 

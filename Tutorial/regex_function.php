@@ -1,14 +1,6 @@
 <?php
-
-// ============================================
-// PHP REGEX FUNCTIONS
-// ============================================
-
-
-// ============================================
 // 1. preg_match()
 // Check whether a pattern exists
-// ============================================
 
 echo "<h2>1. preg_match()</h2>";
 
@@ -23,9 +15,7 @@ if (preg_match("/PHP/", $text)) {
 echo "<br><br>";
 
 
-// ============================================
 // 2. preg_match() WITH CASE INSENSITIVE
-// ============================================
 
 echo "<h2>2. preg_match() with i modifier</h2>";
 
@@ -40,9 +30,7 @@ if (preg_match("/PHP/i", $text)) {
 echo "<br><br>";
 
 
-// ============================================
 // 3. preg_match() WITH CAPTURE GROUP
-// ============================================
 
 echo "<h2>3. Capture Group</h2>";
 
@@ -57,10 +45,8 @@ if (preg_match("/(\d+)/", $text, $matches)) {
 echo "<br><br>";
 
 
-// ============================================
 // 4. preg_match_all()
 // Find ALL matches
-// ============================================
 
 echo "<h2>4. preg_match_all()</h2>";
 
@@ -77,10 +63,8 @@ print_r($matches[0]);
 echo "<br><br>";
 
 
-// ============================================
 // 5. preg_replace()
 // Replace matching text
-// ============================================
 
 echo "<h2>5. preg_replace()</h2>";
 
@@ -93,9 +77,7 @@ echo $result;
 echo "<br><br>";
 
 
-// ============================================
 // 6. preg_replace() WITH CASE INSENSITIVE
-// ============================================
 
 echo "<h2>6. Case Insensitive Replace</h2>";
 
@@ -108,10 +90,8 @@ echo $result;
 echo "<br><br>";
 
 
-// ============================================
 // 7. preg_split()
 // Split string using Regex
-// ============================================
 
 echo "<h2>7. preg_split()</h2>";
 
@@ -124,10 +104,8 @@ print_r($subjects);
 echo "<br><br>";
 
 
-// ============================================
 // 8. preg_quote()
 // Escape Regex Characters
-// ============================================
 
 echo "<h2>8. preg_quote()</h2>";
 
@@ -140,9 +118,7 @@ echo $escapedText;
 echo "<br><br>";
 
 
-// ============================================
 // 9. VALIDATE EMAIL
-// ============================================
 
 echo "<h2>9. Email Validation</h2>";
 
@@ -164,9 +140,7 @@ if (preg_match(
 echo "<br><br>";
 
 
-// ============================================
 // 10. VALIDATE PHONE NUMBER
-// ============================================
 
 echo "<h2>10. Phone Validation</h2>";
 
@@ -185,9 +159,7 @@ if (preg_match("/^[0-9]{10}$/", $phone)) {
 echo "<br><br>";
 
 
-// ============================================
 // 11. VALIDATE USERNAME
-// ============================================
 
 echo "<h2>11. Username Validation</h2>";
 
@@ -206,9 +178,7 @@ if (preg_match("/^[a-zA-Z0-9_]{5,15}$/", $username)) {
 echo "<br><br>";
 
 
-// ============================================
 // 12. EXTRACT NUMBERS
-// ============================================
 
 echo "<h2>12. Extract Numbers</h2>";
 
@@ -223,9 +193,7 @@ print_r($numbers[0]);
 echo "<br><br>";
 
 
-// ============================================
 // 13. EXTRACT EMAILS
-// ============================================
 
 echo "<h2>13. Extract Emails</h2>";
 
@@ -244,9 +212,7 @@ foreach ($emails[0] as $email) {
 }
 
 
-// ============================================
 // FINAL EXAMPLE
-// ============================================
 
 echo "<h2>Final Example</h2>";
 

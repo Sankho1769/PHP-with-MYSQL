@@ -1,14 +1,6 @@
 <?php
 
-// ============================================
-// PHP MATCH EXPRESSION
-// PHP 8.0+
-// ============================================
-
-
-// ============================================
 // 1. BASIC MATCH
-// ============================================
 
 echo "<h2>1. Basic Match</h2>";
 
@@ -28,9 +20,7 @@ $result = match ($day) {
 echo $result . "<br>";
 
 
-// ============================================
 // 2. MATCH WITH STRING
-// ============================================
 
 echo "<h2>2. Match with String</h2>";
 
@@ -48,9 +38,7 @@ $result = match ($color) {
 echo $result . "<br>";
 
 
-// ============================================
 // 3. MATCH WITH MULTIPLE VALUES
-// ============================================
 
 echo "<h2>3. Multiple Values</h2>";
 
@@ -72,9 +60,7 @@ $result = match ($day) {
 echo $result . "<br>";
 
 
-// ============================================
 // 4. MATCH WITH CALCULATOR
-// ============================================
 
 echo "<h2>4. Calculator Using Match</h2>";
 
@@ -95,9 +81,7 @@ $result = match ($operator) {
 echo "Result: " . $result . "<br>";
 
 
-// ============================================
 // 5. MATCH WITH USER ROLE
-// ============================================
 
 echo "<h2>5. User Role</h2>";
 
@@ -115,9 +99,7 @@ $message = match ($role) {
 echo $message . "<br>";
 
 
-// ============================================
 // 6. MATCH WITH CONDITIONS
-// ============================================
 
 echo "<h2>6. Match with Conditions</h2>";
 
@@ -137,9 +119,7 @@ $result = match (true) {
 echo $result . "<br>";
 
 
-// ============================================
 // 7. MATCH IS STRICT
-// ============================================
 
 echo "<h2>7. Strict Comparison</h2>";
 
@@ -157,9 +137,7 @@ $result = match ($value) {
 echo $result . "<br>";
 
 
-// ============================================
 // 8. MATCH MUST RETURN A VALUE
-// ============================================
 
 echo "<h2>8. Match Returns a Value</h2>";
 
@@ -177,9 +155,7 @@ $message = match ($number) {
 echo "Message: " . $message . "<br>";
 
 
-// ============================================
 // 9. MATCH WITHOUT DEFAULT
-// ============================================
 
 echo "<h2>9. Match Without Default</h2>";
 
@@ -194,9 +170,7 @@ $result = match ($number) {
 echo $result . "<br>";
 
 
-// ============================================
 // FINAL EXAMPLE
-// ============================================
 
 echo "<h2>Final Example</h2>";
 
