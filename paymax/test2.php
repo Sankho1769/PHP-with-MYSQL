@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="calc.php" method="post">
-        <label>Input Radius: </label>
-        <input type="text" name="radius" ></input> </br>
+    <form action="result.php" method="post">
+        <label>Input Marks : </label>
+        <input type="text" name="val" ></input> </br>
         <input type="submit" value="Submit"/> </br>
     </form>
-    
+  
 </body>
 </html>
 

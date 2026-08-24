@@ -6,12 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="calc.php" method="post">
-        <label>Input Radius: </label>
-        <input type="text" name="radius" ></input> </br>
+    <form action="loop.php" method="post">
+        
+       
+       <label>Input a number : </label>
+        <input type="number" name="number" ></input> </br>
         <input type="submit" value="Submit"/> </br>
     </form>
-    
 </body>
 </html>
 
+<?php
+$num=$_POST["number"];{
+    foreach(range($num,1)as $i){
+        echo "$i <br>";
+    }
+}
+?>
